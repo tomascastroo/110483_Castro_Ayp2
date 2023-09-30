@@ -1,6 +1,6 @@
 #ifndef ITEM_H
 #define ITEM_H
-
+#include <iostream>
 #include <string>
 
 const std::string TIPO_PUZZLE = "PUZZLE";
@@ -12,13 +12,12 @@ private:
     std::string nombre;
     std::string tipo;
     // Otros atributos relacionados al item.
-
 public:
     // Constructor
     Item(std::string nombre, std::string tipo);
 
-    // Constructor default
-    Item() = default;
+    // // Constructor default
+    // Item() = default;
 
     // Pre:
     // Post: Muestra por pantalla la informacion del item.
@@ -32,7 +31,7 @@ public:
     // Pre:
     // Post: Devuelve true si el nombre coincide.
     bool operator==(const std::string& s);
-
+    
     // Otros metodos relacionados al uso del item.
 };
 

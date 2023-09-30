@@ -1,4 +1,4 @@
-#include "Item.hpp"
+#include "../include/Item.hpp"
 #include <iostream>
 
 Item::Item(std::string nombre, std::string tipo) {
@@ -7,7 +7,7 @@ Item::Item(std::string nombre, std::string tipo) {
 }
 
 void Item::listarInformacion() {
-    std::cout << "Nombre: " << nombre << " Tipo: " << tipo;
+    std::cout << "Nombre: " << nombre << " Tipo: " << tipo << '\n';
 }
 
 std::ostream& operator<<(std::ostream& os, const Item& item) {

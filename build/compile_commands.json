@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/build",
+  "command": "/usr/bin/clang++  -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/include\" -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src\" -Wall -Werror -Wconversion -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Werror -Wconversion -o CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Vector.cpp.o -c \"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src/Vector.cpp\"",
+  "file": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src/Vector.cpp",
+  "output": "CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Vector.cpp.o"
+},
+{
+  "directory": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/build",
+  "command": "/usr/bin/clang++  -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/include\" -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src\" -Wall -Werror -Wconversion -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Werror -Wconversion -o CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Item.cpp.o -c \"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src/Item.cpp\"",
+  "file": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src/Item.cpp",
+  "output": "CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/src/Item.cpp.o"
+},
+{
+  "directory": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/build",
+  "command": "/usr/bin/clang++  -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/include\" -I\"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/src\" -Wall -Werror -Wconversion -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wall -Werror -Wconversion -o CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/main.cpp.o -c \"/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/main.cpp\"",
+  "file": "/Users/tomascastro/Desktop/facultad/algoritmos 2/tps/tp1/ayp2_tp1_castro_2c2023/main.cpp",
+  "output": "CMakeFiles/ayp2_plantilla_tp1_2c2023.dir/main.cpp.o"
+}
+]
