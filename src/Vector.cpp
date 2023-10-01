@@ -54,15 +54,15 @@ void Vector::alta(Item* dato, size_t indice){
     }
 }
 
-void Vector::alta(Item* dato){
-    if (cantidadDatos == 0){
+void Vector::alta(Item* dato) {
+    if (cantidadDatos == 0) {
         tamanioMaximo = 1;
         datos = new Item*[tamanioMaximo];
         datos[0] = dato;
-    } else if (cantidadDatos == tamanioMaximo){
+    } else if (cantidadDatos == tamanioMaximo) {
         tamanioMaximo *= 2;
         Item** nuevo = new Item*[tamanioMaximo];
-        for (size_t i = 0; i < cantidadDatos; i++){
+        for (size_t i = 0; i < cantidadDatos; i++) {
             nuevo[i] = datos[i];
         }
         delete[] datos;
@@ -71,6 +71,7 @@ void Vector::alta(Item* dato){
     datos[cantidadDatos] = dato;
     cantidadDatos++;
 }
+
 
 Item* Vector::baja(){
     if (vacio()){

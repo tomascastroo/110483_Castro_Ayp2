@@ -40,8 +40,9 @@ void accionUsuario(inventario &Inventario){
         Inventario.consultaInventario();
         accionUsuario(Inventario);
     }else if((accion == "SALIR" || accion == "salir") && !salir){
-        Inventario.vectorAArchivo();
         salir = true;
+    }else{
+        Inventario.vectorAArchivo();
     }
 }
 
@@ -49,5 +50,6 @@ int main() {
     inventario Inventario;
     Inventario.archivoAVector();
     accionUsuario(Inventario);
+    Inventario.vectorAArchivo();
     return 0;
 }

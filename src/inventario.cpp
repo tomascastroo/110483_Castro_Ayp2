@@ -38,9 +38,14 @@ void inventario::eliminarInventario(string nombre){
 }
 
 void inventario::consultaInventario(){
-    for (size_t i = 0; i < Inventario.tamanio(); i++) {
-        Inventario[i]->listarInformacion();
+    if(Inventario.tamanio() > 0){
+        for (size_t i = 0; i < Inventario.tamanio(); i++) {
+            Inventario[i]->listarInformacion();
+        }
+    }else{
+        cout << "Su inventario se encuentra vacio!" << endl;
     }
+
 }
 
 ifstream inventario::abrirArchivoLectura(string nombreArchivo){
